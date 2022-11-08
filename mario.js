@@ -121,3 +121,9 @@ function strafe(distance)
     pendown();
 
 }
+
+
+function main()
+{
+    
+}
