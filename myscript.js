@@ -25,7 +25,17 @@ function main()
         brickBlock(sideLength);
         strafe(sideLength);
     }
+    goto(60, -150)
+coin()
 
+goto (-30, -150)
+coin()
+
+goto(150, -150)
+coin()
+
+goto(-150, -150)
+person()
 }
 
 /*
@@ -147,7 +157,10 @@ function strafe(distance)
     END OF BRICK BLOCK FUNCTIONS
 */
 
-function main()
+/* The code below is for my coin 
+*/
+
+function coin()
 {
    colour(246, 223, 30, 0.8)
    width(50)
@@ -160,7 +173,9 @@ function main()
 
 }
 
-function main()
+/* this code below  is for my stick figure character 
+*/
+function person()
 {
    right(200);
    forward(20);
