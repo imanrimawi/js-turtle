@@ -177,6 +177,8 @@ function coin()
 */
 function person()
 {
+   colour(0, 0, 0, 1);
+   width(1);
    right(200);
    forward(20);
    forward(10);
