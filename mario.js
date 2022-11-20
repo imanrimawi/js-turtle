@@ -14,25 +14,26 @@ function main()
     
     goto(-getWidth()/2, minimum);
 
-    //get numver of bricks to draw from user
-    numSquares = prompt("number of bricks: ");
+    // //get numver of bricks to draw from user
+    // numSquares = prompt("number of bricks: ");
 
-    //calculate the side length
+     //calculate the side length
     sideLength = getWidth()/numSquares;
-    brickBlock(50);
-    for (var i = 0; i < numSquares; i++)
+     brickBlock(50);
+     for (var i = 0; i < numSquares; i++)
     {
-        brickBlock(sideLength);
-        strafe(sideLength);
-    }
-    goto(60, -150)
+         brickBlock(sideLength);
+         strafe(sideLength);
+     }
+     
+goto(60, -150)
 coin()
 
-goto (-30, -150)
-coin()
+ goto (-30, -150)
+ coin()
 
-goto(150, -150)
-coin()
+ goto(150, -150)
+ coin()
 
 goto(-150, -150)
 person()
@@ -157,7 +158,7 @@ function strafe(distance)
     END OF BRICK BLOCK FUNCTIONS
 */
 
-/* The code below is for my coin 
+/* The code below is for my coin (made by imN)
 */
 
 function coin()
@@ -173,7 +174,7 @@ function coin()
 
 }
 
-/* this code below  is for my stick figure character 
+/* this code below  is for my stick figure character (made by iman)
 */
 function person()
 {
@@ -197,6 +198,7 @@ function person()
    forward(20);
    left(90);
    forward(10);
+   colour(0, 0, 0, 1);
    shape("circle");
 
 }
