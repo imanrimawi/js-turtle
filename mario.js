@@ -15,7 +15,7 @@ function main()
     goto(-getWidth()/2, minimum);
 
     // //get numver of bricks to draw from user
-    // numSquares = prompt("number of bricks: ");
+     numSquares = prompt("number of bricks: ");
 
      //calculate the side length
     sideLength = getWidth()/numSquares;
@@ -180,7 +180,7 @@ function person()
 {
    colour(0, 0, 0, 1);
    width(1);
-   right(200);
+   right(180);
    forward(20);
    forward(10);
    left(180);
